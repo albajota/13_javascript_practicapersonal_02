@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Documento inicial js 27.01</title>
+    <!-- EN ESTE DOC TENEMOS BIEN PLANTADO COMO TRBAJAR INICIALMENTE EL JS -->
+    <!-- 2 libreria enlazada --> 
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+    <!-- 3 Escribiremos en js -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("img").hide();
+            $("p").hide();
+            $("h1").click(function (){
+                $("img").show();
+                $("p").show();
+            })
+        });
+    </script>
+</head>
+<body>
+    <!-- 1 ponemos contenido -->
+    <h1>Hola, pincha sobre mi</h1>
+    <img src="img/agnes_gif.gif" alt="">
+    <p>¡Es tan blandito que me quiero morir!</p>
+</body>
+</html>
